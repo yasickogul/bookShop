@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeScreen">
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Top Books Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Top Books"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="See More"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/holo_blue_dark"/>
+            </LinearLayout>
+
+            <!-- Horizontal ScrollView for Top Books -->
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!-- Book 1 -->
+                    <include layout="@layout/book_card" />
+                    <!-- Book 2 -->
+                    <include layout="@layout/book_card"/>
+                    <!-- Book 3 -->
+                    <include layout="@layout/book_card"/>
+                    <!-- Book 4 -->
+                    <include layout="@layout/book_card"/>
+                    <!-- Book 5 -->
+                    <include layout="@layout/book_card"/>
+                    <!-- Book 6 -->
+                    <include layout="@layout/book_card"/>
+                    <!-- Book 7 -->
+                    <include layout="@layout/book_card"/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <!-- Latest Books Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Latest Books"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="See More"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/holo_blue_dark"/>
+            </LinearLayout>
+
+            <!-- Horizontal ScrollView for Latest Books -->
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!-- Book 1 -->
+                    <include layout="@layout/book_card"/>
+                    <!-- Book 2 -->
+                    <include layout="@layout/book_card"/>
+                    <!-- Book 3 -->
+                    <include layout="@layout/book_card"/>
+                    <!-- Book 4 -->
+                    <include layout="@layout/book_card"/>
+                    <!-- Book 5 -->
+                    <include layout="@layout/book_card"/>
+                    <!-- Book 6 -->
+                    <include layout="@layout/book_card"/>
+                    <!-- Book 7 -->
+                    <include layout="@layout/book_card"/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upcoming Books"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="See More"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/holo_blue_dark"/>
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="80dp"
+                android:paddingTop="8dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!-- Book 1 -->
+                    <include layout="@layout/book_card"/>
+                    <!-- Book 2 -->
+                    <include layout="@layout/book_card"/>
+                    <!-- Book 3 -->
+                    <include layout="@layout/book_card"/>
+                    <!-- Book 4 -->
+                    <include layout="@layout/book_card"/>
+                    <!-- Book 5 -->
+                    <include layout="@layout/book_card"/>
+                    <!-- Book 6 -->
+                    <include layout="@layout/book_card"/>
+                    <!-- Book 7 -->
+                    <include layout="@layout/book_card"/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom Navigation Bar -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:itemIconTint="@color/accent"
+        app:itemTextColor="@color/cardview_dark_background"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

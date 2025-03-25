@@ -9,6 +9,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        // Disable the ActionBar (AppBar)
+        supportActionBar?.hide()
         setContentView(R.layout.activity_get_start)
 
         val startButton = findViewById<Button>(R.id.startButton)

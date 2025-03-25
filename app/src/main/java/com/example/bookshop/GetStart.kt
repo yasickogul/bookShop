@@ -12,6 +12,8 @@ class GetStart : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        // Disable the ActionBar (AppBar)
+        supportActionBar?.hide()
         setContentView(R.layout.activity_get_start)
 
         // Set padding for system bars
