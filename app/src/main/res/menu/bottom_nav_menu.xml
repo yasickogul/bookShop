@@ -1,54 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-
-
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-
         android:id="@+id/nav_home"
-
         android:icon="@drawable/ic_home"
-
-        android:title="Home"
-
-        app:showAsAction="always" />
-
+        android:title="Home" />
 
     <item
-
         android:id="@+id/nav_categories"
-
         android:icon="@drawable/ic_categories"
-
-        android:title="categories"
-
-        app:showAsAction="always"/>
-
-
+        android:title="Categories" />
 
     <item
-
         android:id="@+id/nav_cart"
-
         android:icon="@drawable/ic_cart"
-
-        android:title="Cart"
-
-        app:showAsAction="always" />
-
-
+        android:title="Cart" />
 
     <item
-
         android:id="@+id/nav_profile"
-
         android:icon="@drawable/ic_account"
-
-        android:title="Profile"
-
-        app:showAsAction="always" />
+        android:title="Profile" />
 
 </menu>

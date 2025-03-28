@@ -54,7 +54,8 @@
                     android:orientation="horizontal">
 
                     <!-- Book 1 -->
-                    <include layout="@layout/book_card" />
+                    <include layout="@layout/book_card"
+                        android:id="@+id/book1"/>
                     <!-- Book 2 -->
                     <include layout="@layout/book_card"/>
                     <!-- Book 3 -->

@@ -66,17 +66,18 @@
                     <!-- Row 1 -->
                     <TableRow>
                         <ImageButton
+                            android:id="@+id/category1"
                             android:layout_width="100dp"
                             android:layout_height="120dp"
                             android:layout_marginEnd="10dp"
                             android:layout_marginBottom="10dp"
-                            android:src="@drawable/scific"
+                            android:src="@drawable/classic"
                             android:background="@null" />
 
                         <ImageButton
                             android:layout_width="100dp"
                             android:layout_height="120dp"
-                            android:src="@drawable/scific"
+                            android:src="@drawable/fantasy"
                             android:background="@null" />
                     </TableRow>
 
@@ -87,13 +88,13 @@
                             android:layout_height="120dp"
                             android:layout_marginEnd="10dp"
                             android:layout_marginBottom="10dp"
-                            android:src="@drawable/scific"
+                            android:src="@drawable/youngadult"
                             android:background="@null" />
 
                         <ImageButton
                             android:layout_width="100dp"
                             android:layout_height="120dp"
-                            android:src="@drawable/scific"
+                            android:src="@drawable/crime"
                             android:background="@null" />
                     </TableRow>
 
@@ -104,13 +105,13 @@
                             android:layout_height="120dp"
                             android:layout_marginEnd="10dp"
                             android:layout_marginBottom="10dp"
-                            android:src="@drawable/scific"
+                            android:src="@drawable/nonfiction"
                             android:background="@null" />
 
                         <ImageButton
                             android:layout_width="100dp"
                             android:layout_height="120dp"
-                            android:src="@drawable/scific"
+                            android:src="@drawable/horror"
                             android:background="@null" />
                     </TableRow>
 
@@ -121,13 +122,13 @@
                             android:layout_height="120dp"
                             android:layout_marginEnd="10dp"
                             android:layout_marginBottom="10dp"
-                            android:src="@drawable/scific"
+                            android:src="@drawable/scifi"
                             android:background="@null" />
 
                         <ImageButton
                             android:layout_width="100dp"
                             android:layout_height="120dp"
-                            android:src="@drawable/scific"
+                            android:src="@drawable/drama"
                             android:background="@null" />
 
                     </TableRow>

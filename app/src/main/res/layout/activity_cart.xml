@@ -78,6 +78,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_marginStart="20dp"
             android:layout_weight="8"
             android:text="Subtotal\nShipping"
             android:textSize="20dp" />
@@ -97,7 +98,8 @@
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/line"
+        android:layout_marginTop="-210dp"
+        android:src="@drawable/blackline"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <TextView
@@ -116,7 +118,7 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:background="@color/black"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="60dp"
         android:text="Proceed to Checkout"
         android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
