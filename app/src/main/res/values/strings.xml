@@ -1,6 +1,23 @@
 <resources>
-    <string name="app_name">bookShop</string>
+    <string name="app_name">Unread</string>
     <string name="description">The Picture of Dorian Gray by Oscar Wilde is a philosophical novel that explores themes of vanity, morality, and the corrupting influence of hedonism. The story follows Dorian Gray, a handsome and youthful man who becomes infatuated with the idea of eternal beauty. Under the influence of the decadent Lord Henry Wotton, Dorian has a portrait painted of himself and wishes that it would age instead of him. As Dorian indulges in a life of excess and immoral behavior, the portrait grows increasingly distorted, reflecting the corruption of his soul, while Dorian himself remains young and untouched. The novel delves into the consequences of living a life of indulgence without regard for the effects on one\'s character and soul.</string>
     <string name="welcome_to_booksellingapp">Welcome to BookSellingApp!</string>
     <string name="get_started">Get Started</string>
+    <string name="cart">Cart</string>
+    <string name="categories">CATEGORIES</string>
+    <string name="subtotal_nshipping">Subtotal\nShipping</string>
+    <string name="proceed_to_checkout">Proceed to Checkout</string>
+    <string name="register">Register</string>
+    <string name="please_fill_your_details_to_signup">Please fill your details to signup</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="re_enter_password">Re-enter password</string>
+    <string name="already_a_member">already a member?</string>
+    <string name="signin">SignIn</string>
+    <string name="enter_email_or_username">Enter Email or Username</string>
+    <string name="please_fill_your_details_to_login">Please fill your details to login</string>
+    <string name="forgotpassword">forgotPassword?</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+    <string name="login">Login</string>
 </resources>
